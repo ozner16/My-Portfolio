@@ -1510,7 +1510,7 @@ section h1{
     #experience .exp-cont .exp-cont-flex .text-cont .text-header p:nth-of-type(1){
         font-size: 145%;
         height: fit-content;
-        padding-bottom: 2%;
+        padding-bottom: 3%;
         /* background-color: red; */
     }
     #experience .exp-cont .exp-cont-flex .text-cont .text-header p:nth-of-type(2){
@@ -1567,7 +1567,7 @@ section h1{
     #education .educ-cont .header p:nth-of-type(1){
         font-size: 55%;
         height: fit-content;
-        padding-bottom: 2%;
+        padding-bottom: 3%;
     }
     #education .educ-cont .header p:nth-of-type(2){
         font-size: 38%;
@@ -1577,7 +1577,7 @@ section h1{
     }
     #education .educ-cont .footer > p{
         height: fit-content;
-        padding-bottom: 2%;
+        padding-bottom: 3%;
     }
     .achivement-list ul li{
         font-size: 73%;
@@ -1650,6 +1650,9 @@ section h1{
     }
     #contact .content .contact-cont-2 .platform-cont:last-child{
         margin-bottom: 0 !important;
+    }
+    #contact .content .contact-cont-2 .platform-cont p{
+        padding-bottom: 3%;
     }
     
 }
