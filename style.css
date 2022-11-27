@@ -1369,7 +1369,7 @@ section h1{
         height: fit-content;
         padding-bottom: 3%;
         width: 100%;
-        background-color: red;
+        /* background-color: red; */
         display: block;
         text-align: center;
     }
