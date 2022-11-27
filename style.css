@@ -1517,8 +1517,8 @@ section h1{
     }
     #experience .exp-cont .exp-cont-flex .text-cont .text-header .intership-txt{
         height: fit-content;
-        padding-bottom: 6%;
-        color: blue;
+        /* padding-bottom: 6%; */
+        margin-bottom: 4%;
     }
     #experience .exp-cont .exp-cont-flex .text-cont .text-header p:nth-of-type(2){
         font-size: 110%;
@@ -1574,7 +1574,7 @@ section h1{
     #education .educ-cont .header p:nth-of-type(1){
         font-size: 55%;
         height: fit-content;
-        padding-bottom: 4%;
+        padding-bottom: 5%;
     }
     #education .educ-cont .header p:nth-of-type(2){
         font-size: 38%;
