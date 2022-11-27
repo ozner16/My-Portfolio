@@ -1397,7 +1397,7 @@ section h1{
         margin-bottom: 0 !important;
     }
     #projects > .content h5{
-        background-color: pink;
+        /* background-color: pink; */
         height: fit-content;
         padding-bottom: 1%;
     }
