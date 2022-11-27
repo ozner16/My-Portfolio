@@ -329,9 +329,9 @@ $(document).ready(function(){
    document.documentElement.style.setProperty('--vw', `${vw}px`);
 
    // console.log($('#about img').css('width'));
-   console.log($('#about').css('height'));
-   console.log($('.nav-small-screen').css('height'));
-   console.log('window inner width: '+ window.innerWidth);
-   console.log('window inner height: '+ window.innerHeight);
+//    console.log($('#about').css('height'));
+//    console.log($('.nav-small-screen').css('height'));
+//    console.log('window inner width: '+ window.innerWidth);
+//    console.log('window inner height: '+ window.innerHeight);
 
    });
