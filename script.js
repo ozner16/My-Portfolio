@@ -320,7 +320,7 @@ $(document).ready(function(){
          $('.menu-small-screen').css('right','-55%'); 
    });
 
-   // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+   // First we get the viewport height/width and we multiple it by 1% to get a value for a vh unit
    let vh = window.innerHeight * 0.01;
    let vw = window.innerWidth * 0.01;
 
