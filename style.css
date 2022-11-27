@@ -1251,7 +1251,7 @@ section h1{
         right: 5%;
     }
     .menu-small-screen{
-        height: var(--vh-small-screen);
+        height: 100%;
         display: block;
     }
     .menu-small-screen > .header-cont{
@@ -1509,6 +1509,9 @@ section h1{
     }
     #experience .exp-cont .exp-cont-flex .text-cont .text-header p:nth-of-type(1){
         font-size: 145%;
+        height: fit-content;
+        padding-bottom: 2%;
+        /* background-color: red; */
     }
     #experience .exp-cont .exp-cont-flex .text-cont .text-header p:nth-of-type(2){
         font-size: 110%;
@@ -1563,12 +1566,18 @@ section h1{
     }
     #education .educ-cont .header p:nth-of-type(1){
         font-size: 55%;
+        height: fit-content;
+        padding-bottom: 2%;
     }
     #education .educ-cont .header p:nth-of-type(2){
         font-size: 38%;
     }
     #education .educ-cont .footer{
         font-size: 53%;
+    }
+    #education .educ-cont .footer > p{
+        height: fit-content;
+        padding-bottom: 2%;
     }
     .achivement-list ul li{
         font-size: 73%;
@@ -1602,6 +1611,8 @@ section h1{
     #contact .content h6{
         font-size: 1rem;
         text-align: center;
+        height: fit-content;
+        padding-bottom: 2%;
     }
     .contact-cont-2 h6{
         margin-top: 3% !important;
@@ -1613,6 +1624,7 @@ section h1{
     #contact .content .contact-cont-1 .label > div{
         width: 12rem;
         /* border: 1px solid yellow; */
+        overflow: hidden;
     }
     #contact .content .contact-cont-1 .label > div p{
         font-size: .5rem;
@@ -1621,6 +1633,8 @@ section h1{
         font-size: .54rem;
         left: 35%;
         top: 5%;
+        height: fit-content;
+        padding-bottom: 2%;
     }
     #contact .content .contact-cont-1 .label-details{
         padding-left: 2%;
