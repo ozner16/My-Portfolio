@@ -1218,7 +1218,7 @@ section h1{
         border: 1px solid gray;
         position: unset;
         width: 100%;
-        padding-bottom: 6%;
+        padding-bottom: 5.5%;
         padding-top: 1%;
         letter-spacing: .3rem;
         border-radius: 0 !important;
@@ -1365,10 +1365,11 @@ section h1{
     #skills > .content > div > p{
         /* display: flex;
         justify-content: center; */
-        margin-top: 5%;
+        margin-top: 3%;
         height: fit-content;
+        padding-bottom: 3%;
         width: 100%;
-        background-color: #00FFFF;
+        background-color: red;
         display: block;
         text-align: center;
     }
