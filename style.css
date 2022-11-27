@@ -1515,6 +1515,11 @@ section h1{
         padding-bottom: 4%;
         /* background-color: red; */
     }
+    #experience .exp-cont .exp-cont-flex .text-cont .text-header .intership-txt{
+        height: fit-content;
+        padding-bottom: 6%;
+        color: blue;
+    }
     #experience .exp-cont .exp-cont-flex .text-cont .text-header p:nth-of-type(2){
         font-size: 110%;
     }
