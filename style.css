@@ -1225,7 +1225,7 @@ section h1{
         background: rgb(22, 22, 22);
         display: block;
         /* margin-top: 17.734%; */
-        /* margin-top: calc(var(--vw-small-screen) * .18); */
+        margin-top: calc(var(--vw-small-screen) * .18);
     }
     section .content{
         padding-top: 10%;
@@ -1265,8 +1265,7 @@ section h1{
         color: white;
         /* border: 1px solid yellow; */
         /* height: calc(var(--vw-small-screen) * 1.675); */
-        /* height: calc(var(--vh-small-screen) - calc(var(--vw-small-screen) * .18)) ; */
-        height: var(--vh-small-screen);
+        height: calc(var(--vh-small-screen) - calc(var(--vw-small-screen) * .18)) ;
     }
     #about .content{
         /* height: calc(var(--vw-small-screen) * 1.666); */
