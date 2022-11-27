@@ -1441,6 +1441,8 @@ section h1{
     } */
     .mobile-exam-checker-app .title-cont-bg .title-cont .header-txt-cont > h5{
         font-size: 80%;
+        height: fit-content;
+        padding-bottom: 2%;
     }
     .title-cont-bg .title-cont .header-txt-cont > p{
         font-size: 40%;
@@ -1510,7 +1512,7 @@ section h1{
     #experience .exp-cont .exp-cont-flex .text-cont .text-header p:nth-of-type(1){
         font-size: 145%;
         height: fit-content;
-        padding-bottom: 3%;
+        padding-bottom: 4%;
         /* background-color: red; */
     }
     #experience .exp-cont .exp-cont-flex .text-cont .text-header p:nth-of-type(2){
@@ -1567,7 +1569,7 @@ section h1{
     #education .educ-cont .header p:nth-of-type(1){
         font-size: 55%;
         height: fit-content;
-        padding-bottom: 3%;
+        padding-bottom: 4%;
     }
     #education .educ-cont .header p:nth-of-type(2){
         font-size: 38%;
@@ -1652,7 +1654,7 @@ section h1{
         margin-bottom: 0 !important;
     }
     #contact .content .contact-cont-2 .platform-cont p{
-        padding-bottom: 3%;
+        padding-bottom: 3.5%;
     }
     
 }
