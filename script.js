@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $(this).scrollTop(0);
-    window.onresize = () => { window.location.reload()}
+//     window.onresize = () => { window.location.reload()}
 
    let section_black_bg='rgb(29, 29, 29)'; 
    let section_white_bg='rgb(233, 233, 234)'; 
