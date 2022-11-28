@@ -1,12 +1,6 @@
 $(document).ready(function(){
-   
-
-      if(window.innerWidth > 600){
-            $(this).scrollTop(0);
-      }
-      else{
-            window.onresize = () => { window.location.reload()}
-      }
+    $(this).scrollTop(0);
+//     window.onresize = () => { window.location.reload()}
 
    let section_black_bg='rgb(29, 29, 29)'; 
    let section_white_bg='rgb(233, 233, 234)'; 
@@ -337,7 +331,7 @@ $(document).ready(function(){
    // console.log($('#about img').css('width'));
 //    console.log($('#about').css('height'));
 //    console.log($('.nav-small-screen').css('height'));
-   console.log('window inner width: '+ window.innerWidth);
+//    console.log('window inner width: '+ window.innerWidth);
 //    console.log('window inner height: '+ window.innerHeight);
 
    });

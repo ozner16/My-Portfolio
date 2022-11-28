@@ -1544,7 +1544,7 @@ section h1{
         font-size: .5rem;
         margin-left: 3%;
     }
-    #experience .overlay-cont:active{
+    /* #experience .overlay-cont:active{
         width: 100%;
         background: rgba(0, 0, 0, .8);
         border: 5px solid white;
@@ -1552,16 +1552,16 @@ section h1{
     }
     #experience .overlay-cont:active .fa-angles-right{
         display: none;
-    }
+    } */
     #experience .exp-cont .overlay-cont .content-details{
         font-size: .47rem;
         width: 7rem;
     }
-    #experience .exp-cont .overlay-cont:active .content-details{
+    /* #experience .exp-cont .overlay-cont:active .content-details{
         display: flex;
         justify-content: center;
         align-items: center;
-    }
+    } */
         /* EDUCATION SECTION */
     #education{
         background: var(--section-black-bg);
