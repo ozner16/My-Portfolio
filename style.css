@@ -1323,7 +1323,8 @@ section h1{
         border: 1px solid white;
         background-color: transparent;
         letter-spacing: 2px;
-        -webkit-tap-highlight-color: transparent;
+        /* -webkit-tap-highlight-color: transparent; */
+        cursor: default;
       }
       .arr-btn-cont .resume-btn:hover{
         background-color: unset;
@@ -1331,7 +1332,7 @@ section h1{
       }
       .arr-btn-cont .resume-btn:active {
         transform: unset;
-        background-color: blueviolet;
+        background-color: yellow;
         color: black;
       }
     /* .arr-btn-cont .resume-btn:focus {
