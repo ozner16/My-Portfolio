@@ -1332,8 +1332,8 @@ section h1{
       }
       .arr-btn-cont .resume-btn:active {
         transform: unset;
-        background-color: greenyellow;
-        color: black;
+        border: 1px solid blueviolet;
+        color: blueviolet;
         outline: none;
       }
     /* .arr-btn-cont .resume-btn:focus {
