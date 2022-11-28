@@ -1580,7 +1580,7 @@ section h1{
         padding-bottom: 5%;
     }
     #education .educ-cont .header .adjust-txt{
-       border: 1px solid yellow;
+       /* border: 1px solid yellow; */
        padding-bottom: 10% !important;
     }
     #education .educ-cont .header p:nth-of-type(2){
