@@ -1433,6 +1433,10 @@ section h1{
         padding-right: 5%;
         /* background-color: yellow; */
     }
+    .title-cont-bg .title-cont .header-txt-cont > h5{
+        height: fit-content;
+        padding-bottom: 4% !important;
+    }
     /* .mobile-exam-checker-app .modal-content .title-cont-bg{
         height: 33%;
     }
@@ -1441,8 +1445,6 @@ section h1{
     } */
     .mobile-exam-checker-app .title-cont-bg .title-cont .header-txt-cont > h5{
         font-size: 80%;
-        height: fit-content;
-        padding-bottom: 4% !important;
     }
     .title-cont-bg .title-cont .header-txt-cont > p{
         font-size: 40%;
@@ -1515,10 +1517,10 @@ section h1{
         padding-bottom: 4%;
         /* background-color: red; */
     }
-    #experience .exp-cont .exp-cont-flex .text-cont .text-header .intership-txt{
+    #experience .exp-cont .exp-cont-flex .text-cont .text-header .internship-txt{
         height: fit-content;
         padding-bottom: 10% !important;
-        background-color: yellow;
+        /* background-color: yellow; */
         /* margin-bottom: 4%; */
     }
     #experience .exp-cont .exp-cont-flex .text-cont .text-header p:nth-of-type(2){
