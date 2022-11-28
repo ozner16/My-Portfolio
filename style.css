@@ -229,8 +229,8 @@ li:first-child a{
 }
 .nav-small-screen h5{
     font-size: 70%;
-    left: 3%;
-    position: absolute;
+    /* left: 3%; */
+    /* position: absolute; */
 }
 /* .nav-small-screen i{
     font-size: 100%;
@@ -1245,10 +1245,26 @@ section h1{
         width: var(--vw-small-screen);
         display: flex;
     }
-    .nav-small-screen h5{
-        font-size: 65%;
-        left: 5%;
+    .nav-small-screen .header-cont{
+        /* background-color: yellow; */
+        display: block;
+        position: absolute;
+        left: 4%;
+    }
+    .nav-small-screen .header-cont > h5{
+        font-size: 50%;
         color: rgb(0, 191, 255);
+        /* margin-bottom: 1%; */
+    }
+    .nav-small-screen .header-cont > p{
+        font-size: 40%;
+        color: white;
+        height: fit-content;
+        width: fit-content;
+        padding: 1% 11%;
+        background-color: rgb(61, 61, 61);
+        border-radius: 20px;
+        margin-left: 11%;
     }
     .nav-small-screen .fa-bars{
         right: 5%;
