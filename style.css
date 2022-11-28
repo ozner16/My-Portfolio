@@ -1579,6 +1579,10 @@ section h1{
         height: fit-content;
         padding-bottom: 5%;
     }
+    #education .educ-cont .header .adjust-txt{
+       border: 1px solid yellow;
+       padding-bottom: 10% !important;
+    }
     #education .educ-cont .header p:nth-of-type(2){
         font-size: 38%;
     }
