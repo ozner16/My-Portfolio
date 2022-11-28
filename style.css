@@ -1517,7 +1517,8 @@ section h1{
     }
     #experience .exp-cont .exp-cont-flex .text-cont .text-header .intership-txt{
         height: fit-content;
-        padding-bottom: 4% !important;
+        padding-bottom: 10% !important;
+        background-color: yellow;
         /* margin-bottom: 4%; */
     }
     #experience .exp-cont .exp-cont-flex .text-cont .text-header p:nth-of-type(2){
