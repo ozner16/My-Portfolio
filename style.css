@@ -1325,17 +1325,15 @@ section h1{
         letter-spacing: 2px;
       }
       .arr-btn-cont .resume-btn:hover{
-        background-color: transparent;
-        color: white;
-        /* background-color: transparent;
-        border: 2px solid blueviolet; */
+        background-color: unset;
+        color: unset;
       }
       .arr-btn-cont .resume-btn:active {
-        background-color: transparent;
-        color: white;
-        transform: translateY(5px);
-        
-    }
+        transform: unset;
+        background-color: blueviolet;
+        color: black;
+      }
+     
 
         /* SKILLS SECTION */
     #skills{
