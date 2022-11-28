@@ -1332,7 +1332,11 @@ section h1{
         transform: unset;
         background-color: blueviolet;
         color: black;
+        border: 1px solid red;
       }
+      /* .arr-btn-cont .resume-btn:focus{
+        border: 1px solid red;
+      } */
      
 
         /* SKILLS SECTION */
