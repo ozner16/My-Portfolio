@@ -1205,6 +1205,9 @@ section h1{
         margin-left: 0vw;
     
     }
+    button{
+        outline: none;
+    }
     section{
         height: var(--vh-small-screen);
         width: var(--vw-small-screen);
