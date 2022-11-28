@@ -1323,8 +1323,8 @@ section h1{
         border: 1px solid white;
         background-color: transparent;
         letter-spacing: 2px;
-        /* -webkit-tap-highlight-color: transparent; */
         cursor: default;
+        outline: none;
       }
       .arr-btn-cont .resume-btn:hover{
         background-color: unset;
@@ -1332,8 +1332,9 @@ section h1{
       }
       .arr-btn-cont .resume-btn:active {
         transform: unset;
-        background-color: yellow;
+        background-color: pink;
         color: black;
+        outline: none;
       }
     /* .arr-btn-cont .resume-btn:focus {
         background-color: blue;
@@ -1466,6 +1467,7 @@ section h1{
         margin: 0 auto;
         border: var(--img-border);
         border-top: none;
+        cursor: default;
     }
     .modal-content .popup-image{
         background: black;
