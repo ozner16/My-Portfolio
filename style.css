@@ -1324,7 +1324,7 @@ section h1{
         background-color: transparent;
         letter-spacing: 2px;
         cursor: default;
-        /* outline: none; */
+        outline: none;
       }
       .arr-btn-cont .resume-btn:hover{
         background-color: unset;
@@ -1334,7 +1334,7 @@ section h1{
         transform: unset;
         border: 1px solid blueviolet;
         color: blueviolet;
-        outline: none;
+        /* outline: none; */
       }
     /* .arr-btn-cont .resume-btn:focus {
         background-color: blue;
