@@ -1301,6 +1301,7 @@ section h1{
         height: calc(var(--vh-small-screen) * .648);
         /* background: rgb(15, 255, 15); */
         position: relative;
+        text-align: center;
         /* border: 1px solid yellow; */
     }
     .cont-text .arr-btn-cont{
