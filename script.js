@@ -341,7 +341,7 @@ $(document).ready(function(){
             document.addEventListener("backbutton", onBackKeyDown, false);
         }
         function onBackKeyDown() {
-           alert('hahahaha');
+            $('.popup-image').css('display','none');
         }
 
    });
