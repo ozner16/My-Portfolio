@@ -341,7 +341,7 @@ $(document).ready(function(){
             document.addEventListener("backbutton", onBackKeyDown, false);
         }
         function onBackKeyDown() {
-            $('.nav-small-screen .header-cont > h5').css('color','red');
+           alert('hahahaha');
         }
 
    });
