@@ -143,7 +143,6 @@ $(document).ready(function(){
                      $('.modal-content .popup-image .right-arrow').css('display','none');
                }
                //    console.log(imgIndex)
-               console.log(image_src)
          });
    
    // image slider arrows
