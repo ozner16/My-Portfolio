@@ -333,5 +333,10 @@ $(document).ready(function(){
       //    console.log($('.nav-small-screen').css('height'));
       //    console.log('window inner width: '+ window.innerWidth);
       //    console.log('window inner height: '+ window.innerHeight);
+      $(window).on('popstate', function(event) {
+            $('.popup-image').css('display','none');
+            $('.modal-content .image-container').css('overflow','auto');
+            $('html').css('overflow', 'hidden');
+      });
 
    });
