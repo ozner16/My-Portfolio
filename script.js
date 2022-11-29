@@ -333,15 +333,5 @@ $(document).ready(function(){
       //    console.log($('.nav-small-screen').css('height'));
       //    console.log('window inner width: '+ window.innerWidth);
       //    console.log('window inner height: '+ window.innerHeight);
-      function onLoad() {
-            document.addEventListener("deviceready", onDeviceReady, false);
-        }
-        function onDeviceReady() {
-            // Register the event listener
-            document.addEventListener("backbutton", onBackKeyDown, false);
-        }
-        function onBackKeyDown() {
-            $('.popup-image').css('display','none');
-        }
 
    });
