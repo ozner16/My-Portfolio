@@ -334,9 +334,14 @@ $(document).ready(function(){
       //    console.log('window inner width: '+ window.innerWidth);
       //    console.log('window inner height: '+ window.innerHeight);
       $(window).on('popstate', function(event) {
-            $('.popup-image').css('display','none');
-            $('.modal-content .image-container').css('overflow','auto');
-            $('html').css('overflow', 'hidden');
+            // $('.popup-image').css('display','none');
+            // $('.modal-content .image-container').css('overflow','auto');
+            // $('html').css('overflow', 'hidden');
+            if(($('.popup-image').css('display')) == "block") {       
+                  $('.popup-image').css('display','none');
+                  // $('.modal-content .image-container').css('overflow','auto');
+                  // $('html').css('overflow', 'hidden');
+            }
       });
 
    });
