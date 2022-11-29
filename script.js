@@ -126,22 +126,28 @@ $(document).ready(function(){
          $('.'+ proj_name +' .image-container .image').click(function(){
                let image_src = $('img',this).map(function() { return $(this).attr('src') }).get();
                imgIndex = $(this).index();
-               $('.popup-image').css('display','block');
-               $('.modal-content .image-container').css('overflow','hidden');
-               $('.popup-image img').attr('src', image_src);
-
-               if(imgIndex == 0 ){
-                     $('.modal-content .popup-image .left-arrow').css('display','none');
-                     $('.modal-content .popup-image .right-arrow').css('display','flex'); 
-               }
-               else if(imgIndex < (total_images - 1) ){
-                     $('.modal-content .popup-image .left-arrow').css('display','flex');
-                     $('.modal-content .popup-image .right-arrow').css('display','flex');                      
-               }
-               else{
-                     $('.modal-content .popup-image .left-arrow').css('display','flex');
-                     $('.modal-content .popup-image .right-arrow').css('display','none');
-               }
+               if(window.innerWidth <= 600){
+                   window.location.href = image_src;
+                }
+                else{
+                  $('.popup-image').css('display','block');
+                  $('.modal-content .image-container').css('overflow','hidden');
+                  $('.popup-image img').attr('src', image_src);
+   
+                  if(imgIndex == 0 ){
+                        $('.modal-content .popup-image .left-arrow').css('display','none');
+                        $('.modal-content .popup-image .right-arrow').css('display','flex'); 
+                  }
+                  else if(imgIndex < (total_images - 1) ){
+                        $('.modal-content .popup-image .left-arrow').css('display','flex');
+                        $('.modal-content .popup-image .right-arrow').css('display','flex');                      
+                  }
+                  else{
+                        $('.modal-content .popup-image .left-arrow').css('display','flex');
+                        $('.modal-content .popup-image .right-arrow').css('display','none');
+                  }
+                }
+               
                //    console.log(imgIndex)
          });
    
