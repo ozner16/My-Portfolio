@@ -333,5 +333,7 @@ $(document).ready(function(){
       //    console.log($('.nav-small-screen').css('height'));
       //    console.log('window inner width: '+ window.innerWidth);
       //    console.log('window inner height: '+ window.innerHeight);
-
+      window.addEventListener("hashchange", function(e) {
+            $('.nav-small-screen .header-cont > h5').css('color','yellow'); 
+        })
    });
