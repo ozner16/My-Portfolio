@@ -1490,10 +1490,13 @@ section h1{
         cursor: default;
     }
     .modal-content .image-container .image img{
-        transition: unset;
+        transition: .2s linear;
     }
     .modal-content .image-container .image:hover img{
         transform: unset;
+    }
+    .modal-content .image-container .image:active img{
+        transform: scale(1.1);
     }
     .modal-content .popup-image{
         background: black;
