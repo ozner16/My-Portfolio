@@ -253,7 +253,7 @@ li:first-child a{
     font-size: 50%;
     text-align: center;
     display: none;
-    transition: 1s ease;
+    transition: .8s ease;
 }
 
 .menu-small-screen .list-item-cont{
