@@ -1489,6 +1489,12 @@ section h1{
         border-top: none;
         cursor: default;
     }
+    .modal-content .image-container .image img{
+        transition: unset;
+    }
+    .modal-content .image-container .image:hover img{
+        transform: unset;
+    }
     .modal-content .popup-image{
         background: black;
     }
