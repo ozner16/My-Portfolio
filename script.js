@@ -127,7 +127,8 @@ $(document).ready(function(){
                let image_src = $('img',this).map(function() { return $(this).attr('src') }).get();
                imgIndex = $(this).index();
                if(window.innerWidth <= 600){
-                   window.location.href = image_src;
+                  //  window.location.href = image_src;
+                   window.open(image_src);
                 }
                 else{
                   $('.popup-image').css('display','block');
