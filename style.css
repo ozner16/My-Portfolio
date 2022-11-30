@@ -1489,9 +1489,6 @@ section h1{
         border-top: none;
         cursor: default;
     }
-    .modal-content .image-container .image img{
-        transition: .2s linear;
-    }
     .modal-content .image-container .image:hover img{
         transform: unset;
     }
