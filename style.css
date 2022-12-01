@@ -1294,6 +1294,7 @@ section h1{
     }
     #about .about-cont{
         margin-top: 0 !important;
+        overflow: hidden;
     }
     #about h1{
         display: none;
