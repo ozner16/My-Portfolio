@@ -121,12 +121,16 @@ $(document).ready(function(){
                $('.popup-image').css('display','none');
                $('.modal-content .image-container').css('overflow','auto');
    });
+   function isFacebookApp() {
+      var ua = navigator.userAgent || navigator.vendor || window.opera;
+      return (ua.indexOf("FBAN") > -1) || (ua.indexOf("FBAV") > -1);
+  }
 
    function proj_modal(proj_name, total_images){
          $('.'+ proj_name +' .image-container .image').click(function(){
                let image_src = $('img',this).map(function() { return $(this).attr('src') }).get();
                imgIndex = $(this).index();
-               if(window.innerWidth <= 600){
+               if(window.innerWidth <= 600 && isFacebookApp() == false){
                    window.location.href = image_src;
                 }
                 else{
