@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $(this).scrollTop(0);
-//     window.onresize = () => { window.location.reload()}
+
 
    let section_black_bg='rgb(29, 29, 29)'; 
    let section_white_bg='rgb(233, 233, 234)'; 
@@ -15,14 +15,6 @@ $(document).ready(function(){
    let arrows_orig_bg = 'rgba(255, 255, 255, .05)';
    let arrows_orig_color = 'rgba(255, 255, 255, .5)';
    let arrows_orig_fsize = '.65rem';
-
- // list item click
- // sideNav_listItem.on('click',function(){
- //     // active trigger find
- //     let active_listItem = $(this).closest('.sidebar-cont').find('.menu li.active');
- //     active_listItem.removeClass('active');
- //     $(this).addClass('active');
- // });
 
  // Change background color of list item when scrolled
  let sideNav_listItem = $('.sidebar-cont .menu li');
@@ -151,8 +143,6 @@ $(document).ready(function(){
                         $('.modal-content .popup-image .right-arrow').css('display','none');
                   }
                 }
-               
-               //    console.log(imgIndex)
          });
    
    // image slider arrows
@@ -165,7 +155,6 @@ $(document).ready(function(){
                      $('.modal-content .popup-image .left-arrow').css('display','flex');
                      $('.modal-content .popup-image .right-arrow').css('display','flex'); 
                      imgIndex = imgIndex - 1;
-                     // console.log(imgIndex)
                }
                if(imgIndex == 0){
                      $('.modal-content .popup-image .left-arrow').css('display','none');
@@ -183,7 +172,6 @@ $(document).ready(function(){
                      $('.modal-content .popup-image .left-arrow').css('display','flex');
                      $('.modal-content .popup-image .right-arrow').css('display','flex'); 
                      imgIndex = imgIndex + 1;
-                     // console.log(imgIndex)
                }
                if(imgIndex == (total_images - 1)){
                      $('.modal-content .popup-image .left-arrow').css('display','flex');
@@ -227,7 +215,6 @@ $(document).ready(function(){
                $('.modal-content .popup-image .left-arrow').on('mousedown', function() {
                      tId = setTimeout(hold_leftArrow_bg, 0);
                }).on('mouseup', function() {
-                     // $('.modal-content .popup-image .left-arrow').css({'background':arrows_hover_bg,'color':arrows_hover_color,'font-size':arrows_hover_fsize});
                      setTimeout(function(){
                            $('.modal-content .popup-image .left-arrow').css({'background':arrows_hover_bg,'color':arrows_hover_color,'font-size':arrows_hover_fsize});  
                      }, 0);
@@ -240,7 +227,6 @@ $(document).ready(function(){
                });
 
                imgIndex = imgIndex - 1;
-               // console.log(imgIndex)
                }
                if(imgIndex == 0){
                      setTimeout(function(){
@@ -269,7 +255,6 @@ $(document).ready(function(){
                $('.modal-content .popup-image .right-arrow').on('mousedown', function() {
                      tId = setTimeout(hold_rightArrow_bg, 0);
                }).on('mouseup', function() {
-                     // $('.modal-content .popup-image .right-arrow').css({'background':arrows_hover_bg,'color':arrows_hover_color,'font-size':arrows_hover_fsize});
                      setTimeout(function(){
                            $('.modal-content .popup-image .right-arrow').css({'background':arrows_hover_bg,'color':arrows_hover_color,'font-size':arrows_hover_fsize});  
                      }, 0);
@@ -282,7 +267,6 @@ $(document).ready(function(){
                });
              
                imgIndex = imgIndex + 1;
-               // console.log(imgIndex)
          }
          if(imgIndex == (total_images - 1)){
                $('.modal-content .popup-image .left-arrow').css('display','flex');
@@ -334,16 +318,10 @@ $(document).ready(function(){
    let vh = window.innerHeight * 0.01;
    let vw = window.innerWidth * 0.01;
 
-   // Then we set the value in the --vh custom property to the root of the document
+   // Then we set the value in the --vh/--vw custom property to the root of the document
    document.documentElement.style.setProperty('--vh', `${vh}px`);
    document.documentElement.style.setProperty('--vw', `${vw}px`);
 
-      // console.log($('#about img').css('width'));
-      //    console.log($('#about').css('height'));
-      //    console.log($('.nav-small-screen').css('height'));
-      //    console.log('window inner width: '+ window.innerWidth);
-      //    console.log('window inner height: '+ window.innerHeight);
-      
       //reload when window resize
       var dwidth = jQuery(window).width();
       jQuery(window).bind('resize', function(e){
