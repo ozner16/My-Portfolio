@@ -47,7 +47,7 @@ $(document).ready(function(){
  });
    //Resume button
    $('.arr-btn-cont button').click(function() {
-         window.open('./files/Ompad-Renzo-Resume.pdf');
+         window.open('./files/Renzo-Ompad-Resume.pdf');
    });
 
    //display modals
