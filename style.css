@@ -68,6 +68,7 @@ body{
 
 .sidebar-cont .fa-icons {
     font-size: 70%;
+    overflow: hidden;
 }
 
 .sidebar-cont ul li:hover a{
@@ -416,6 +417,7 @@ section h1{
 }
 #projects > .content{
     font-size: 0;
+    overflow: hidden;
 }
 
 #projects > .content > .proj-cont{
@@ -636,6 +638,9 @@ section h1{
     align-items: center; 
     cursor: pointer;
     z-index: 100;
+}
+.modal-content .popup-image .close-btn > .fa-xmark{
+    overflow: hidden;
 }
 
 .modal-content .popup-image .close-btn:hover{
