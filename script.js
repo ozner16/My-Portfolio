@@ -113,10 +113,18 @@ $(document).ready(function(){
                $('.popup-image').css('display','none');
                $('.modal-content .image-container').css('overflow','auto');
    });
+
+   $(document).keyup(function(e) {
+      if (e.key === "Escape") {
+           $('.popup-image').css('display','none');
+           $('.modal-content .image-container').css('overflow','auto');
+      }
+   });
+
    function isFacebookApp() {
       var ua = navigator.userAgent || navigator.vendor || window.opera;
       return (ua.indexOf("FBAN") > -1) || (ua.indexOf("FBAV") > -1);
-  }
+   }
 
    function proj_modal(proj_name, total_images){
          $('.'+ proj_name +' .image-container .image').click(function(){
