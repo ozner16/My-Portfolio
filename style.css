@@ -783,6 +783,7 @@ section h1{
     font-size: 90%;
     margin-bottom: 10%;
     padding-top: .2rem;
+    overflow: hidden;
 }
 
 #experience .exp-cont .exp-cont-flex .text-cont .text-footer a{
@@ -929,6 +930,7 @@ section h1{
     width: 100%;
     font-size: 0;
     display: block;
+    overflow: hidden;
 }
 #contact .content .contact-cont-1{
     height: 40%;
