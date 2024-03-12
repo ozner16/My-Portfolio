@@ -556,6 +556,7 @@ section h1{
     color: rgb(255, 93, 93);
     right: 1%;
     top: 7%;
+    overflow: hidden;
 }
 .title-cont-bg .title-cont .fa-square-xmark:hover{
     cursor: pointer;
@@ -675,11 +676,17 @@ section h1{
 .modal-content .popup-image .webView-arrows{
     width: 93%;
 }
+.modal-content .popup-image .webView-arrows i{
+    overflow: hidden;
+}
 .modal-content .popup-image > .webView-arrows span{
     width: 4%;
 }
 .modal-content .popup-image .mobileView-arrows{
     width: 60%;
+}
+.modal-content .popup-image .mobileView-arrows i{
+    overflow: hidden;
 }
 .modal-content .popup-image > .mobileView-arrows span{
     width: 6%;
@@ -690,6 +697,7 @@ section h1{
 .modal-content .popup-image > .arrows-cont .right-arrow{
     right: 0;
 }
+
 .modal-content .popup-image > .arrows-cont span{
   position: absolute;
   height: 100%;
